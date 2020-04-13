@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+	  <groups>
+   		<run>
+   			<include name="Login"/>
+   			<include name="FirstPage"/>  
+   			<include name="ProvincesCityArea"/>   
+   			<include name="RenewalCommodities"/>
+   			<include name="LogisticsCode"/> 
+   			<include name="InstallEquipmentBroadbandCode"/>
+   			<include name="RennewalMaintenanceTime"/>
+   			<include name="ComplaintManagement"/> 
+   			<include name="BroadbandNewClothesOrder"/> 
+   			<include name="RenewalOrder"/> 
+   			<include name="OvertimeOrders"/>
+   			<include name="BroadbandProductList"/> 
+   			<include name="OffShelfProductList"/>  
+   			<include name="Managers"/>
+   			<include name="RoleList"/>
+   			<include name="PersonalSettings"/>
+   		</run>
+     </groups>    
+   
+	<classes>      
+	  <class name="selenium.Login"></class>
+	  <class name="selenium.FirstPage"></class> 
+	  <class name="selenium.ProvincesCityArea"></class> 
+	  <class name="selenium.RenewalCommodities"></class>
+	  <class name="selenium.LogisticsCode"></class>
+	  <class name="selenium.InstallEquipmentBroadbandCode"></class>
+	  <class name="selenium.RennewalMaintenanceTime"></class>
+	  <class name="selenium.ComplaintManagement"></class>
+	  <class name="selenium.BroadbandNewClothesOrder"></class> 
+	  <class name="selenium.RenewalOrder"></class> 
+	  <class name="selenium.OvertimeOrders"></class>
+	  <class name="selenium.BroadbandProductList"></class>
+	  <class name="selenium.OffShelfProductList"></class> 
+	  <class name="selenium.Managers"></class>
+	  <class name="selenium.RoleList"></class>
+	  <class name="selenium.PersonalSettings"/>
+	</classes>    
+	
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

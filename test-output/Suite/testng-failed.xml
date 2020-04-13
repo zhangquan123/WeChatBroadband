@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <groups>
+      <run>
+        <include name="Login"/>
+        <include name="FirstPage"/>
+        <include name="ProvincesCityArea"/>
+        <include name="RenewalCommodities"/>
+        <include name="LogisticsCode"/>
+        <include name="InstallEquipmentBroadbandCode"/>
+        <include name="RennewalMaintenanceTime"/>
+        <include name="ComplaintManagement"/>
+        <include name="BroadbandNewClothesOrder"/>
+        <include name="RenewalOrder"/>
+        <include name="OvertimeOrders"/>
+        <include name="BroadbandProductList"/>
+        <include name="OffShelfProductList"/>
+        <include name="Managers"/>
+        <include name="RoleList"/>
+        <include name="PersonalSettings"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="selenium.OvertimeOrders">
+        <methods>
+          <include name="OvertiOrders"/>
+        </methods>
+      </class> <!-- selenium.OvertimeOrders -->
+      <class name="selenium.BroadbandProductList">
+        <methods>
+          <include name="BPList"/>
+        </methods>
+      </class> <!-- selenium.BroadbandProductList -->
+      <class name="selenium.ComplaintManagement">
+        <methods>
+          <include name="complaintMang"/>
+        </methods>
+      </class> <!-- selenium.ComplaintManagement -->
+      <class name="selenium.RennewalMaintenanceTime">
+        <methods>
+          <include name="MaintenanceTime"/>
+        </methods>
+      </class> <!-- selenium.RennewalMaintenanceTime -->
+      <class name="selenium.RenewalOrder">
+        <methods>
+          <include name="ReneOrder"/>
+        </methods>
+      </class> <!-- selenium.RenewalOrder -->
+      <class name="selenium.RoleList">
+        <methods>
+          <include name="rolelist"/>
+        </methods>
+      </class> <!-- selenium.RoleList -->
+      <class name="selenium.Managers">
+        <methods>
+          <include name="manager"/>
+        </methods>
+      </class> <!-- selenium.Managers -->
+      <class name="selenium.InstallEquipmentBroadbandCode">
+        <methods>
+          <include name="broadbandCode"/>
+        </methods>
+      </class> <!-- selenium.InstallEquipmentBroadbandCode -->
+      <class name="selenium.PersonalSettings">
+        <methods>
+          <include name="PerSeting"/>
+        </methods>
+      </class> <!-- selenium.PersonalSettings -->
+      <class name="selenium.LogisticsCode">
+        <methods>
+          <include name="LogistiCode"/>
+        </methods>
+      </class> <!-- selenium.LogisticsCode -->
+      <class name="selenium.OffShelfProductList">
+        <methods>
+          <include name="OSfProductList"/>
+        </methods>
+      </class> <!-- selenium.OffShelfProductList -->
+      <class name="selenium.BroadbandNewClothesOrder">
+        <methods>
+          <include name="broadbandOrder"/>
+        </methods>
+      </class> <!-- selenium.BroadbandNewClothesOrder -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
